@@ -1,7 +1,7 @@
 # 🚀 Fashion Forward: An Interactive Deep Learning Showcase
 
 <p align="center">
-  <img src="assets/cover_image.png" alt="Project Cover Image" width="800"/>
+  <img src="cover_image.png" alt="Project Cover Image" width="800"/>
 </p>
 
 <p align="center">
@@ -90,7 +90,7 @@ Experience the application live and interact with the AI model directly! This se
 *(Please replace the placeholder URL with the actual deployment link once available. A deployment on Streamlit Cloud is highly recommended for easy access.)*
 
 <p align="center">
-  <img src="assets/app_screenshot.gif" alt="Animated GIF of the Fashion Forward application in action" width="800"/>
+  <img src="app_screenshot.gif" alt="Animated GIF of the Fashion Forward application in action" width="800"/>
 </p>
 
 *Figure 1: An animated demonstration showcasing the interactive features and dynamic interface of the Fashion Forward application, including navigation between sections and live prediction capabilities.*
@@ -193,8 +193,6 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-*(Remember to replace `your-username/your-repo-name` with the actual path to your GitHub repository.)*
-
 ### 2. Create a Dedicated Python Virtual Environment
 
 It is highly recommended to use a virtual environment to manage project dependencies. This isolates the project's libraries from your system-wide Python installation, preventing conflicts and ensuring reproducibility.
@@ -220,8 +218,6 @@ With your virtual environment activated, install all the necessary Python librar
 ```bash
 pip install -r requirements.txt
 ```
-
-*(If for any reason `requirements.txt` is missing or incomplete, you can manually install the core dependencies: `pip install streamlit torch torchvision pandas plotly scikit-learn matplotlib pillow`)*
 
 ### 4. Verify Model File Presence
 
@@ -295,7 +291,7 @@ This progressive layering allows the model to build a rich understanding of the 
 Monitoring the training and validation metrics over epochs is fundamental for assessing a model's learning dynamics. The following plot illustrates how the model's accuracy improved and its loss decreased during the training phase, both on the training data and on unseen validation data.
 
 <p align="center">
-  <img src="assets/training_progress.png" alt="Training and Validation Progress" width="700"/>
+  <img src="training_progress.png" alt="Training and Validation Progress" width="700"/>
 </p>
 
 *Figure 2: Training and Validation Accuracy (left) and Loss (right) over 10 Epochs. The curves demonstrate consistent learning and a good generalization capability, with validation metrics closely following training metrics, indicating minimal overfitting.*
@@ -315,7 +311,7 @@ Examining individual predictions, especially misclassifications, provides invalu
 These examples showcase the model's proficiency in accurately classifying a diverse range of fashion items. They highlight the model's ability to discern subtle visual cues and assign the correct label, demonstrating its learned feature representations.
 
 <p align="center">
-  <img src="assets/correct_predictions.png" alt="Correctly Predicted Fashion Items" width="700"/>
+  <img src="correct_predictions.png" alt="Correctly Predicted Fashion Items" width="700"/>
 </p>
 
 *Figure 3: A selection of images from the test set that were correctly classified by the FashionCNN model. Each image is annotated with its predicted class (Pred) and true class (True), which are identical in these cases.*
@@ -325,7 +321,7 @@ These examples showcase the model's proficiency in accurately classifying a dive
 Analyzing misclassifications is a critical step in model debugging and improvement. These examples reveal the challenging cases where the model's prediction deviates from the true label, often due to visual similarities between classes or inherent ambiguities in the images.
 
 <p align="center">
-  <img src="assets/incorrect_predictions.png" alt="Incorrectly Predicted Fashion Items" width="700"/>
+  <img src="incorrect_predictions.png" alt="Incorrectly Predicted Fashion Items" width="700"/>
 </p>
 
 *Figure 4: Examples of images from the test set that were incorrectly classified by the FashionCNN model. These highlight instances where the predicted class (Pred) differs from the true class (True), providing insights into the model's limitations.*
@@ -348,7 +344,7 @@ Model Insights section) reveals that the model initially learns to detect fundam
 *   **3D PCA Plot of High-Level Features**: This interactive visualization is a cornerstone for understanding the model's learned feature space. By reducing the high-dimensional output of the model's penultimate layer to three principal components, we can observe how the model intrinsically groups different fashion categories.
 
 <p align="center">
-  <img src="assets/fashion_mnist_3d_pca.html" alt="Interactive 3D PCA of High-Level Features" width="800"/>
+  <img src="fashion_mnist_3d_pca.html" alt="Interactive 3D PCA of High-Level Features" width="800"/>
 </p>
 
 *Figure 5: Interactive 3D PCA plot of the model's high-level features. Each point represents an image from the test set, colored by its true fashion category. This visualization helps in understanding the separability of classes in the learned feature space and identifying areas of overlap.*
@@ -396,7 +392,3 @@ This project was conceived, designed, and developed by:
 -   **Kaggle**: [MohamedElsadek44](https://www.kaggle.com/mohamedelsadek44)
 
 ---
-
-
-
-
