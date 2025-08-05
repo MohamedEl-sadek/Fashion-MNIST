@@ -341,7 +341,7 @@ Model Insights section) reveals that the model initially learns to detect fundam
 *   **3D PCA Plot of High-Level Features**: This interactive visualization is a cornerstone for understanding the model's learned feature space. By reducing the high-dimensional output of the model's penultimate layer to three principal components, we can observe how the model intrinsically groups different fashion categories.
 
 <p align="center">
-  <img src="fashion_mnist_3d_pca.html" alt="Interactive 3D PCA of High-Level Features" width="800"/>
+  <img src="fashion_mnist_3d_pca.png" alt="Interactive 3D PCA of High-Level Features" width="800"/>
 </p>
 
 *Figure 5: Interactive 3D PCA plot of the model's high-level features. Each point represents an image from the test set, colored by its true fashion category. This visualization helps in understanding the separability of classes in the learned feature space and identifying areas of overlap.*
