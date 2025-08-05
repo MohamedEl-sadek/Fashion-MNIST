@@ -189,8 +189,7 @@ To set up and run the Fashion Forward application on your local machine, follow 
 First, open your terminal or command prompt and clone the project repository from GitHub:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/MohamedEl-sadek/Fashion-MNIST/tree/main.git
 ```
 
 ### 2. Create a Dedicated Python Virtual Environment
