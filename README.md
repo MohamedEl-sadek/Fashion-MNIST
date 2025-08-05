@@ -85,9 +85,7 @@ This studio serves as an excellent tool for both demonstration and personal expe
 
 Experience the application live and interact with the AI model directly! This section will host a link to the deployed application and a visual demonstration of its capabilities.
 
-**[🚀 LAUNCH THE LIVE APPLICATION]([https://your-streamlit-app-url.streamlit.app/](http://localhost:8501))**
-
-*(Please replace the placeholder URL with the actual deployment link once available. A deployment on Streamlit Cloud is highly recommended for easy access.)*
+**[🚀 LAUNCH THE LIVE APPLICATION]((http://localhost:8501))**
 
 <p align="center">
   <img src="app_screenshot.gif" alt="Animated GIF of the Fashion Forward application in action" width="800"/>
